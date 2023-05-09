@@ -13,6 +13,11 @@ ul{
     margin-top: 0;
     display: flex;
     padding: 25px;
+    gap: 10px;      /* makes gap of inside container*/
+}
+
+li{
+    cursor: pointer; /* gives the cursor a pointer look  */
 }
 
 .logo{
@@ -23,7 +28,6 @@ ul{
 
 .icon{
     width: 25px;
-    margin: 0 10px;
 }
 
 h1{
@@ -32,3 +36,10 @@ h1{
     margin: 25px 30px;
 }
 
+.caption{
+    margin: 0 25px;
+}
+
+.item-img{
+    width: 100%;
+}
