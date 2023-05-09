@@ -1,45 +1,97 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: Montserrat, sans-serif;
-    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
     color: #282828;
 }
 
-ul{
+header {
     background-color: #282828;
     color: whitesmoke;
-    list-style-type: none;
-    margin-top: 0;
-    display: flex;
-    padding: 25px;
-    gap: 10px;      /* makes gap of inside container*/
 }
 
-li{
-    cursor: pointer; /* gives the cursor a pointer look  */
-}
-
-.logo{
+.logo {
     font-size: 18px;
     font-weight: 700;
-    margin: auto 0;
 }
 
-.icon{
+ul {
+    display: flex;
+    list-style-type: none;               /* new */
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    gap: 10px
+}
+
+li {
+    cursor: pointer;                 /* new */
+}
+
+.icon {
     width: 25px;
 }
 
-h1{
+.align-right {
+    margin-left: auto;
+} 
+
+h1 {
     font-size: 40px;
     font-weight: 400;
-    margin: 25px 30px;
+    margin: 30px 25px;
 }
 
-.caption{
+.item {
+    position: relative;              /* new */
+}
+
+.item-img {
+    display: block;
+    width: 100%;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;                           /* new */
     margin: 0 25px;
 }
 
-.item-img{
-    width: 100%;
+.img-banner { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px;
 }
+
+button {
+    align-self: center;                  /* new */
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.chatbox-bg {
+    position: fixed;                 /* new */
+    bottom: 6px;                     /* new */
+    right: 6px;                      /* new */
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;                /* new */
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+}
+
+.chatbox-img {
+    margin: auto;
+    width: 50%; 
+}
+
