@@ -68,7 +68,7 @@ h1 {
 }
 
 button {
-    align-self: center;                  /* new */
+    align-self: center;                  /* new */  
     border: none;
     background-color: #cd6858;
     color: whitesmoke;
