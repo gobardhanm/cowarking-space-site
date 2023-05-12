@@ -54,7 +54,7 @@ h1 {
 .caption {
     display: flex;
     justify-content: space-between;
-    gap: 20px;                           /* new */
+    gap: 20px;                           /* new  concepts*/
     margin: 0 25px;
 }
 
