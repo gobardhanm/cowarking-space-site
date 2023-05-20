@@ -1,3 +1,5 @@
+/* My CSS */
+
 body {
     margin: 0;
     padding: 0;
@@ -54,7 +56,7 @@ h1 {
 .caption {
     display: flex;
     justify-content: space-between;
-    gap: 20px;                           /* new  concepts*/
+    gap: 20px;                          /* new  concepts*/
     margin: 0 25px;
 }
 
